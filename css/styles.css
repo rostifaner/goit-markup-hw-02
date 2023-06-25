@@ -26,7 +26,7 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-state);
 }
@@ -39,7 +39,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: var(--navyblue);
 }
 
@@ -55,7 +55,7 @@ body {
 .link-address {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   font-style: normal;
   color: inherit;
 }
@@ -75,7 +75,7 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 
 .main-button {
@@ -83,7 +83,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   background-color: var(--primary-state);
   cursor: pointer;
 }
@@ -93,22 +93,18 @@ body {
   background-color: var(--secondary-state);
 }
 
-.main-button:active {
-  background-color: var(--secondary-state);
-}
-
 .third-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   color: var(--navyblue);
 }
 
 .description {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
@@ -118,7 +114,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -134,7 +130,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   color: var(--primary-state);
   background-color: var(--cloud);
   cursor: pointer;
@@ -155,9 +151,8 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
   color: var(--primary-state);
 }
 
@@ -168,6 +163,6 @@ body {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: var(--cloud);
 }
