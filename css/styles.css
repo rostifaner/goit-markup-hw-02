@@ -28,7 +28,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
   color: var(--primary-state);
 }
 
@@ -41,7 +40,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  text-decoration: none;
   color: var(--navyblue);
 }
 
@@ -58,7 +56,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  text-decoration: none;
   font-style: normal;
   color: inherit;
 }
@@ -96,7 +93,7 @@ body {
   background-color: var(--secondary-state);
 }
 
-..main-button:active {
+.main-button:active {
   background-color: var(--secondary-state);
 }
 
