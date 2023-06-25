@@ -3,36 +3,40 @@
   --secondary-state: #404bbf;
   --slate: #434455;
   --navyblue: #2e2f42;
-  --background-color: #ffffff;
+  --white: #ffffff;
   --cloud: #f4f4fd;
 }
 
 body {
   font-family: Roboto, sans-serif;
-  background-color: var(--background-color);
+  background-color: var(--white);
   color: var(--slate);
 }
 
-ul {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 
-.page-nav .logo {
+.link {
+  text-decoration: none;
+}
+
+.logo {
   font-size: 18px;
   font-family: Raleway, sans-serif;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--navyblue);
-}
-
-.page-nav .logo-web {
   color: var(--primary-state);
 }
 
-.page-nav-link .link {
+.logo-studio {
+  color: var(--navyblue);
+}
+
+.main-nav {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -41,12 +45,16 @@ ul {
   color: var(--navyblue);
 }
 
-.page-nav-link .link:hover,
-.page-nav-link .link:focus {
+.main-nav:hover,
+.main-nav:focus {
   color: var(--secondary-state);
 }
 
-.contacts .link-address {
+.address-link {
+  font-style: normal;
+}
+
+.link-address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -55,23 +63,26 @@ ul {
   color: inherit;
 }
 
-.contacts .link-address:hover,
-.contacts .link-address:focus {
+.link-address:hover,
+.link-address:focus {
   color: var(--secondary-state);
 }
 
-.page-title {
-  color: var(--background-color);
+.main-section {
+  background-color: var(--navyblue);
+}
+
+.main-title {
+  color: var(--white);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  background-color: var(--navyblue);
 }
 
-.button-text {
-  color: var(--background-color);
+.main-button {
+  color: var();
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -80,60 +91,45 @@ ul {
   cursor: pointer;
 }
 
-.button-text:hover {
+.main-button:hover,
+.main-button:focus {
   background-color: var(--secondary-state);
 }
 
-h2 {
+.third-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-}
-
-h3 {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-h2,
-h3 {
   color: var(--navyblue);
 }
 
-.section-desc .main-text {
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--slate);
+}
+
+.second-title {
+  color: var(--navyblue);
   text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 
 .team-section {
   background-color: var(--cloud);
 }
 
-.team-section .main-text {
-  text-align: center;
+.team-card {
+  background-color: var(--white);
 }
 
-.team-section-list .team-card {
-  background-color: #ffffff;
-}
-
-.footer-section .logo {
-  font-size: 18px;
-  font-family: Raleway, sans-serif;
-  font-weight: 800;
-  line-height: 1.16;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var(--navyblue);
-}
-
-.footer-section .logo-web {
-  color: var(--primary-state);
-}
-
-.button-list .button {
+.button-filter {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -142,12 +138,35 @@ h3 {
   background-color: var(--cloud);
   cursor: pointer;
 }
-.button-list .button-all {
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--white);
+  background-color: #404bbf;
+}
+
+.footer-section {
+  background-color: var(--navyblue);
+}
+
+.footer-logo {
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--primary-state);
+}
+
+.footer-logo-studio {
+  color: var(--cloud);
+}
+
+.footer-text {
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
-  color: var(--background-color);
-  background-color: var(--secondary-state);
-  cursor: pointer;
+  letter-spacing: 0.32px;
+  color: var(--cloud);
 }
